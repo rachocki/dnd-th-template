@@ -1,0 +1,97 @@
+<!-- RULES AND INSTRUCTIONS
+> Don't remove my name/link from code credit. If you alter it a lot, you can change how i'm credited, but please still credit me for the base code.
+> Edit however you want, incorporate with other code, etc. go nuts.
+> Please comment that you're using, I'd love to see what you do with it uwu 
+> How to use: Read commented sections and non-code text for which parts to replace with your character info/images. 
+> Cards are currently coded to match the height of the "tallest" card, but if you want them to fit what's in them instead, just remove the "h-100" from the class in card-block code.
+-->
+
+<!-- Since the cards are transparent, a low-contrast, simple pattern looks best for this background image. Alternately, reduce the transparency on the card backgrounds. -->
+<div class="container-fluid" style="background-image:url('https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg');"> <!-- replace this jpg if desired -->
+    <br>
+          <div class="text-center">
+		  <!-- I like to use an image for the character name text- either replace the png below with your own, or replace the img line with commented h1 for text. -->
+		  <!-- <h1>NAME HERE</h1> -->
+            <img src="CHARACTER_NAME_IMAGE_URL.png" alt="NAME" style="width: 300px;">
+            <p style="color: #421A06 !important">Race | Class | Gender | Alignment</p>
+          </div>
+          
+		  <br>
+		  
+    <!-- Row template: Copy from here to "end cards" if you want another row of cards. -->
+    <div class="row" >
+        <div class="col-4">
+            <div class="card card-block bg-transparent rounded-0" style="border: double; border-color: #421A06 !important;">
+              <div class="text-center"><h3 style="color: #421A06 !important">❧ Skills & Proficiencies</h3></div>
+              <!-- DND style stats- skills not included, put them in the notes below if desired. -->
+			  <p style="color: #421A06 !important">
+                <b>Cha:</b> X<br>
+                <b>Con:</b> Y <br>
+                <b>Dex:</b> Z<br>
+                <b>Int:</b> A<br>
+                <b>Str:</b> B<br>
+                <b>Wis:</b> C<br>
+                <br>Notes:</p>
+              <ul style="color:#421A06 !important"><li>Note 1</li>
+              <li>Note 2</li>
+              <li>Note 3</li>
+              <li>Note 4</li></ul>
+            </div>
+            <br>
+            <div class="card card-block bg-transparent rounded-0" style="border: double; border-color: #421A06 !important;">
+              <div class="text-center"><h3 style="color: #421A06 !important">❧ Inventory</h3></div>
+              <p style="color: #421A06 !important">Note here, if wanted.</p>
+              <ul style="color:#421A06 !important"><li>Object 1</li>
+              <li>Object Type: Object 2a, Object 2b, Object 2c</li>
+              <li>Object 3</li>
+              <li>Object 4</li></ul>
+            </div>
+            
+        </div>
+       <div class="col-4">
+	   <!-- Character portrait in the card below, replace the source url. Portrait orientation works best. -->
+            <div class="card-img-top embed-responsive br-transparent rounded-0" style="border: double; border-color: #421A06 !important;"><img class="w-100" src="PORTRAIT_IMAGE_SRC_HERE"></div>
+            <br>
+         <div class="card card-block bg-transparent rounded-0" style="border: double; border-color: #421A06 !important;">
+		 <!-- Backstory and so forth goes here in the lorem-ipsum -->
+            <div class="text-center"><h3 style="color: #421A06 !important">❧ Bio</h3></div>
+            <p style="color: #421A06 !important">o3o Stuff happened lol
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam efficitur vehicula. Nulla eu condimentum felis, nec elementum sapien. Nunc metus felis, dapibus nec nulla vel, hendrerit iaculis massa. Pellentesque blandit, velit nec eleifend aliquam, mi nunc dictum lectus, vel consequat augue neque eu felis. Ut luctus libero sit amet semper lacinia. Proin nec nunc ipsum. Sed nec scelerisque felis, non vulputate justo.<br><br>
+
+            Vivamus efficitur, eros quis pharetra iaculis, eros arcu fermentum nisl, eget sodales ante elit rutrum dui. Phasellus enim tortor, ullamcorper vel felis vel, gravida tempus sapien. Cras quis odio a ex dictum mollis vitae aliquam eros. Integer pharetra, orci ut malesuada ullamcorper, neque ipsum vulputate dui, sit amet consectetur turpis urna molestie urna. Proin et justo sit amet felis pretium mollis eu eget mi. Integer viverra nisl leo, a blandit velit sodales et. Maecenas malesuada hendrerit leo, nec condimentum ipsum laoreet non. Integer a lorem quis lorem ultricies sagittis sed vitae felis. Pellentesque risus turpis, bibendum at maximus quis, rhoncus id nunc. </p>
+            </div>
+            <br>
+            
+        </div>
+      <div class="col-4">
+        <div class="card card-block bg-transparent rounded-0" style="border: double; border-color: #421A06 !important;">
+			<!-- Personality stuff -->
+			<div class="text-center"><h3 style="color: #421A06 !important">❧ Personality Details</h3></div>
+            <ul style="color: #421A06 !important"><li><b>Basic Overview:</b> The sort of person they are, and how they usually interact with the world.</li>
+            <li><b>Major Flaws:</b> Their major struggles with themself, their view of the world, and their relationships with others.</li>
+            <li><b>Ideals/Goals:</b> Their best qualities, what they aspire to be, what they want to do, and why.</li></ul>
+            </div>
+            <br>
+        <div class="card card-block bg-transparent rounded-0" style="border: double; border-color: #421A06 !important;">
+		<!-- Relationship stuff here -->
+              <div class="text-center"><h3 style="color: #421A06 !important">❧ Relationships & Affiliations</h3></div>
+              <ul style="color:#421A06 !important"><li>A person, and a brief description of their relationship.</li>
+              <li>Another person, and how they are related.</li>
+              <li>One more person</li></ul>
+              <br>
+              <ul style="color:#421A06 !important"><li>An organization, and what it has to do with this character.</li>
+              <li>Another one, and how they are related.</li></ul>
+            </div>
+        
+        </div>
+    </div>
+    <!-- end cards -->
+    <br>
+    
+    <hr>
+	
+    <!-- credit section. DO NOT remove the code credit. -->
+    <p class="text-center" style="font-size: .5rem; color: #e3d0ff; background-color: rgba(0,0,0,.5)">Credits: code|<a href="https://toyhou.se/commandercorvus">commandercorvus</a> <i class="fas fa-dragon"></i>  profile image|<a href="https://toyhou.se/commandercorvus">commandercorvus</a> <i class="fas fa-dragon"></i>  background image|<a href="https://pixabay.com/photos/paper-old-texture-parchment-1074131/">Chris Fiedler</a></p>
+    <br>
+</div>
